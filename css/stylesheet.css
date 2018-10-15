@@ -1,0 +1,180 @@
+body {
+  margin: 0;
+  font-family: "Hiragino Kaku Gothic ProN";
+}
+
+a {
+  text-decoration: none;
+}
+.container {
+  width: 1170px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+.top-wrapper {
+  margin: 100px 0 80px 0;
+  padding: 130px 0 100px 0;
+  background-image: url('file:///Users/ryotakebayashi/Desktop/shigeru/image/IMG_6714.jpg');
+  background-size: cover;
+  color: white;
+  text-align: center;
+}
+
+.top-wrapper h1 {
+  opacity: 0.9;
+  font-size: 55px;
+  letter-spacing: 5px;
+}
+
+.top-wrapper p {
+  opacity: 0.9;
+  font-size: 20px;
+}
+
+.btn {
+  padding: 8px 24px;
+  color: white;
+  display: inline-block;
+  opacity: 0.8;
+  border-radius: 4px;
+  box-shadow: 0px 5px #2F4F4F;
+}
+
+.btn:active {
+  box-shadow: none;
+  position: relative;
+  top: 7px;
+}
+
+
+.btn:hover {
+  opacity: 1;
+}
+
+.btn-wrapper {
+  margin: 40px 0;
+}
+
+.top {
+  background-color: #3b5998;
+  margin-right: 10px;
+}
+
+.company {
+  background-color: #3b5998;
+  margin-right: 10px;
+}
+
+.product {
+  background-color: #3b5998;
+  margin-right: 10px;
+}
+
+.contact {
+  background-color: #3b5998;
+  margin-right: 10px;
+}
+
+
+header {
+  height: 100px;
+  width: 100%;
+  background-color: rgba(34, 49, 52, 0.9);
+  position: fixed;
+  top: 0;
+  z-index: 10;
+}
+
+.header-left p {
+  padding-top:12px;
+  font-size: 25px;
+  font-weight: 800;
+  color: white;
+  margin: 0;
+
+}
+
+.logo {
+  float:left;
+  width: 40px;
+  margin-top: 30px
+}
+
+.container p {
+  margin: 0px;
+  padding-top: 30px;
+  font-size: 25px;
+  font-weight: 800;
+  color: white;
+}
+
+footer {
+  height: 120px;
+  width: 100%;
+  background-color: rgba(34, 49, 52, 0.9);
+}
+
+footer img {
+  width: 40px;
+  margin: 20px 0;
+}
+
+.footer-logo {
+  float:left;
+  margin: 30px 0;
+}
+
+.copyright {
+  text-align:center;
+  width: 100%;
+  margin-right: 40px;
+  color: white;
+}
+/*挨拶*/
+.message {
+  width: 1170px;
+  padding: 0 15px;
+  margin: 20px auto;
+}
+
+.message:after {
+  clear: both;
+  display: block;
+  content: "";
+}
+
+.hello {
+  width: 500px;
+  float:left;
+}
+
+.text-name p {
+  float: right;
+  text-align: right;
+  margin-left: 15px;
+}
+
+/*連絡先*/
+.information {
+  width: 300px;
+  float: right;
+}
+
+/*会社概要*/
+
+table {
+	border-collapse: collapse;
+  margin-left: 410px;
+  margin-bottom: 50px;
+  text-align:center;
+  width: 500px;
+}
+td {
+	border: solid 1px;
+	padding: 0.5em;
+}
+
+.page {
+  text-align:center;
+}
